@@ -9,9 +9,9 @@ export interface Book {
     description: string;
     coverColor: string;
     coverUrl: string;
-    video: string;
+    videoUrl: string;
     summary: string;
-    isLoanedBook?: boolean;
+    createdAt: Date | null;
   }
   
   export interface AuthCredentials {
